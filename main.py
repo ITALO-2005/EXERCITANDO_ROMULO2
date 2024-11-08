@@ -7,12 +7,16 @@ elif numero < 0:
 else:
     print("O número é zero.")
 
+
+
 #2. Verificação de Número Par/Ímpar
 numero = int(input("Digite um número: "))
 if numero % 2 == 0:
     print("O número é par.")
 else:
     print("O número é ímpar.")
+
+
 
 #3. Calculadora Simples
 num1 = float(input("Digite o primeiro número: "))
@@ -33,6 +37,7 @@ elif operacao == "/":
 else:
     print("Operação inválida.")
 
+
 #4. Maior de Três Números
 
 #5. Classificação de Idade
@@ -47,6 +52,8 @@ elif idade >= 60:
     print("Idoso")
 else:
     print("Idade inválida.")
+
+
 
 
 #6. Verificação de Triângulo
@@ -79,6 +86,8 @@ elif nota >= 0 and nota < 60:
 else:
     print("Nota inválida.")
 
+
+
 #8. Validação de Login
 username = input("Digite o nome de usuário: ")
 senha = input("Digite a senha: ")
@@ -87,6 +96,8 @@ if username == "admin" and senha == "12345":
     print("Acesso concedido")
 else:
     print("Acesso negado")
+
+
 
 #9. Calculadora de IMC
 peso = float(input("Digite seu peso (kg): "))
@@ -105,7 +116,6 @@ elif 30 <= imc < 39.9:
     print("Obeso")
 else:
     print("Muito obeso")
-
 
 
 #10. Verificação de Ano Bissexto
