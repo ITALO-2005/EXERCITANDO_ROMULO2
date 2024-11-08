@@ -72,7 +72,7 @@ else:
     print("Os lados não formam um triângulo.")
 
 #7. Conversão de Notas
-nota = float(input("Digite a nota (0 a 100): "))
+nota = int(input("Digite a nota (0 a 100): "))
 if nota >= 90 and nota <= 100:
     print("Conceito: A")
 elif nota >= 80 and nota < 90:
